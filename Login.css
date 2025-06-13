@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 135px;
+    transition: 300ms;
+}
+
+.login1 {
+    margin-right: 20%;
+}
+
+    .login1 img {
+        transition: 300ms;
+    }
+
+
+.login2 {
+    color: #d7b053;
+    margin-right: 10%;
+}
+
+.login2 input {
+    margin-top: 30px;
+    height: 30px;
+    width: 250px;
+}
+
+.login2 button {
+    background-color: #Ac8C42;
+    border-radius: 5px;
+    margin-top: 25px;
+    height: 50px;
+    width: 100px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.login2 button:hover {
+    background-color: #Ac8C42;
+    color: white;
+    transform: scale(1.1);
+}
+
+.login2 h4 {
+    color: #d7b053;
+}
+
+.login2 h4:hover {
+    color: #866d34
+}
+
+@media (min-width: 1025px) {
+}
+
+/*tablet*/
+@media (min-width: 750px) and (max-width: 1024) {
+    .login {
+        flex-direction: column;
+    }
+
+    .login1 img {
+        width: 450px;
+    }
+}
+
+/*smartphone*/
+@media (max-width: 930px) {
+    .login {
+        flex-direction: column;
+    }
+
+    .login1 img {
+        width: 300px;
+    }
+}

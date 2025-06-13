@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 135px;
+    transition: 300ms;
+}
+
+.cadastro1 {
+    margin-right: 20%;
+}
+
+.cadastro1 img {
+    transition: 300ms;
+}
+
+
+.cadastro2 {
+    color: #d7b053;
+    margin-right: 10%;
+}
+
+.cadastro2 input {
+    margin-top: 30px;
+    height: 30px;
+    width: 250px;
+}
+
+.cadastro2 button {
+    background-color: #Ac8C42;
+    border-radius: 5px;
+    margin-top: 25px;
+    height: 50px;
+    width: 130px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.cadastro2 button:hover {
+    background-color: #Ac8C42;
+    color: white;
+    transform: scale(1.1);
+}
+
+.cadastro2 h4 {
+    color: #d7b053;
+}
+
+.cadastro2 h4:hover {
+    color: #866d34
+}
+
+@media (min-width: 1025px) {
+}
+
+/*tablet*/
+@media (min-width: 750px) and (max-width: 1024) {
+    .cadastro {
+        flex-direction: column;
+    }
+
+    .cadastro1 img {
+        width: 300px;
+    }
+}
+
+/*smartphone*/
+@media (max-width: 930px) {
+    .cadastro {
+        flex-direction: column;
+    }
+
+    .cadastro1 img {
+        width: 250px;
+        margin-top: 50px;
+    }
+}

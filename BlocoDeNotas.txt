@@ -1,0 +1,32 @@
+<div class="product" data-id="1" data-name="Brinco de Prata" data-price="99.99">
+                <div class="product-img">
+                    <img src="Imagens/Produtos/Brinco1.webp">
+                </div>
+
+                    <h3>Brinco de Prata</h3>
+                    <p>Preço: R$59,99</p>
+
+                    <button class="add-to-cart">Adicionar</button>
+            </div>
+
+            <div class="product" data-id="1" data-name="Colar de Ouro" data-price="299.99">
+                <div class="product-img">
+                    <img src="Imagens/Produtos/Colar1.jpg">
+                </div>
+
+                    <h3>Colar de Ouro</h3>
+                    <p>Preço: R$299,99</p>
+
+                    <button class="add-to-cart">Adicionar</button>
+            </div>
+
+            <div class="product" data-id="1" data-name="Pulseira de Ouro" data-price="99.99">
+                <div class="product-img">
+                    <img src="Imagens/Produtos/Pulseira1.webp">
+                </div>
+
+                    <h3>Pulseira de Ouro</h3>
+                    <p>Preço: R$99,99</p>
+
+                    <button class="add-to-cart">Adicionar</button>
+            </div>
